@@ -26,7 +26,7 @@
 
 var CKBUILDER_CONFIG = {
 	skin: 'moono-lisa',
-	preset: 'standard',
+	preset: 'full',
 	ignore: [
 		'.DS_Store',
 		'.bender',
