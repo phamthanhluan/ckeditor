@@ -20,6 +20,7 @@ class Editor extends Textarea
 
         $this->script = <<<EOT
 CKEDITOR.replace('{$this->id}', $config);
+CKEDITOR.plugins.addExternal('ckeditor_wiris', 'https://ckeditor.com/docs/ckeditor4/4.12.1/examples/assets/plugins/ckeditor_wiris/', 'plugin.js');
 EOT;
         return parent::render();
     }
